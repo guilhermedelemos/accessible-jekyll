@@ -1,0 +1,14 @@
+<nav>
+    <a href="/" {% if page.url == "/" %}class="current"{% endif %}>
+        Home
+    </a>
+    <a href="/blog" {% if page.url == "/blog.html" %}class="current"{% endif %}>
+        Blog
+    </a>
+    <a href="/staff" {% if page.url == "/staff.html" %}class="current"{% endif %}>
+        Staff
+    </a>
+    <a href="/about" {% if page.url == "/about.html" %}class="current"{% endif %}>
+        About
+    </a>
+</nav>
